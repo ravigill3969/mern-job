@@ -1,0 +1,88 @@
+# Node modules for backend and frontend
+node_modules/
+client/node_modules/
+
+# Build directories for frontend and backend
+build/
+client/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Directory for secret environment variables
+.env
+client/.env
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+client/node_modules/
+
+# Coverage directory for testing
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache (used by some projects)
+.cache/
+
+# Next.js build output
+.next/
+
+# Gatsby files
+.cache/
+public/
+
+# SvelteKit build directory
+.svelte-kit/
+
+# Typescript cache
+*.tsbuildinfo
+
+# API key or secret config files (e.g. Firebase, Google Cloud, AWS)
+firebase.json
+serviceAccountKey.json
+
+# Jest testing
+/jest.config.js
+
+# Build directory for Webpack, Babel, etc.
+dist/
+out/
+
+# ESLint cache
+.eslintcache
+
+# Prettier configuration
+.prettierrc
+
+# Ignore VSCode workspace settings and extensions
+.vscode/
+
+# Optional: Ignore production Dockerfile if you're using Docker
+Dockerfile.prod
+docker-compose.prod.yml
+
+# MacOS specific files
+.DS_Store
