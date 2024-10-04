@@ -1,10 +1,11 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 import { Button } from './ui/button'
 import { Bookmark } from 'lucide-react'
 import { Avatar, AvatarImage } from './ui/avatar'
 import { Badge } from './ui/badge'
 import { useNavigate } from 'react-router-dom'
 
+// eslint-disable-next-line react/prop-types
 const Job = ({job}) => {
     const navigate = useNavigate();
     // const jobId = "lsekdhjgdsnfvsdkjf";
